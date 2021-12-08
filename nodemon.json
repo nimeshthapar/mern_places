@@ -1,0 +1,9 @@
+{
+  "env": {
+    "MONGO_USER": "nimesh",
+    "MONGO_PASSWORD": "noni1234",
+    "MONGO_NAME": "mern_places",
+    "GEO_AUTH_CODE": "607795096147258557263x45163",
+    "SECRET_KEY": "weeeeaaaaboooo"
+  }
+}
