@@ -50,7 +50,7 @@ app.use((err, req, res, next) => {
 mongoose
   .connect(URI)
   .then(() => {
-    app.listen(PORT, () => {
+    app.listen(process.env.PORT || PORT, () => {
       console.log(`Server Listening at ${PORT}`);
     });
   })
