@@ -4,7 +4,7 @@ const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 
-const setHeaders = require('./middleware/set-headers');
+// const setHeaders = require('./middleware/set-headers');
 const HttpError = require('./models/http-error');
 const placeRoutes = require('./routes/place');
 const userRoutes = require('./routes/user');
